@@ -25,6 +25,6 @@ async function boost(msg) {
     }
 }
 
-m.stream('streaming/hashtag', {tag: '툿친소'}).on('message', boost);
-m.stream('streaming/hashtag', {tag: '뿌친소'}).on('message', boost);
-m.stream('streaming/hashtag', {tag: '마친소'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: '자캐커뮤'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: '커뮤홍보'}).on('message', boost);
+m.stream('streaming/hashtag', {tag: '자커홍보'}).on('message', boost);
